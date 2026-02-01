@@ -25,7 +25,7 @@ jobs:
         run: npm install
         working-directory: functions
 
-      - name: Deploy Functions
+      - name: Deploy Functions 
         run: firebase deploy --only functions --project prueba-atom-bg --debug
         working-directory: functions
         env:
