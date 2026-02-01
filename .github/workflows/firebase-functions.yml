@@ -29,4 +29,4 @@ jobs:
         run: firebase deploy --only functions --project prueba-atom-bg --debug
         working-directory: functions
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FIREBASE_TOKEN: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
